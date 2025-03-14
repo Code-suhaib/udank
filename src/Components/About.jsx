@@ -8,8 +8,8 @@ const About = () => {
       <Row className="align-items-center">
         {/* Left Side: Image */}
         <Col md={6} className="image-container">
-          <Image
-            src="/about-us.jpg" // Ensure the image is in the public folder
+          <Image 
+            src="/About.jpg" // Ensure the image is in the public folder
             alt="About Us"
             fluid
             className="fade-in"

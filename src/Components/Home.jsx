@@ -3,9 +3,10 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
 import "./home.css";
 
+
 function Home() {
   return (
-    <Container className="mt-5">
+    <Container className="mt-5 mb-5">
       <Row className="align-items-center"> 
         {/* Left Side - Text (6 columns) */}
         <Col md={6}>
@@ -40,7 +41,7 @@ function Home() {
         {/* Right Side - Image (6 columns) */}
         <Col md={6}  sm={12}  className="text-center image">
           <motion.img 
-            src="/home_image.jpg" // Correct path for public folder
+            src="/home_image.jpg" 
             alt="Coaching Class"
             className="img-fluid rounded shadow-lg"
             initial={{ opacity: 0, x: 20 }} 
