@@ -1,0 +1,112 @@
+/* About Section */
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  /* Image Styling */
+  .image-container img {
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text Styling */
+  .text-container {
+    text-align: left;
+  }
+  
+  /* Title Styling */
+  .about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff9800;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Fade-in Animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-us {
+    margin-top: 50px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .feature-box {
+    background: #fff8e1;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Call to Action */
+  .call-to-action {
+    margin-top: 50px;
+    padding: 40px 20px;
+    background: #ff9800;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .cta-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 1.8rem;
+    }
+  
+    .about-text {
+      font-size: 1rem;
+    }
+  
+    .cta-title {
+      font-size: 1.8rem;
+    }
+  
+    .cta-text {
+      font-size: 1rem;
+    }
+  }
+  
