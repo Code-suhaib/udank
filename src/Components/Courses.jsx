@@ -1,38 +1,45 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import "./courses.css";
 
 const courses = [
   {
     id: 1,
-    title: "Mathematics",
-    description: "Master concepts of Algebra, Geometry, Trigonometry, and Calculus with our expert teachers.",
-    image: "./Maths.jpg",
+    title: "JEE Preparation",
+    description: "Crack JEE with expert guidance, comprehensive study materials, and regular mock tests.",
+    image: "/iit-jee.jpg",
   },
   {
     id: 2,
-    title: "Physics",
-    description: "Understand the laws of physics and their real-world applications with in-depth concepts and problems.",
-    image: "./Physics.jpg",
+    title: "NEET Preparation",
+    description: "Ace NEET with in-depth concept clarity, practical problem-solving, and mock exams.",
+    image: "/Neet.jpeg",
   },
   {
     id: 3,
-    title: "Chemistry",
-    description: "Explore the world of atoms, molecules, and chemical reactions with interactive learning.",
-    image: "./chemistry.jpg",
+    title: "IMU-CET Coaching",
+    description: "Specialized coaching for IMU-CET aspirants, covering all essential topics with mock tests.",
+    image: "/IMU-CET.jpg",
   },
   {
     id: 4,
-    title: "Class 9 - Science & Maths",
-    description: "Complete syllabus coverage for Class 9 with expert guidance in Maths and Science.",
-    image: "./class 9.jpg",
+    title: "NDA Coaching",
+    description: "Prepare for NDA with top faculty, strategic preparation plans, and extensive practice sessions.",
+    image: "/NDA.jpg",
   },
   {
     id: 5,
-    title: "Class 10 - Science & Maths",
-    description: "Comprehensive coaching for Class 10 students to build strong foundations in core subjects.",
-    image: "./class 9.jpg",
+    title: "Class 11 - Science Board",
+    description: "Complete syllabus coverage for Class 11 Science stream with expert guidance.",
+    image: "/11th.jpg",
+  },
+  {
+    id: 6,
+    title: "Class 12 - Science Board",
+    description: "Comprehensive coaching for Class 12 Science stream with in-depth explanations and practice.",
+    image: "/12th.jpg",
   },
 ];
 
@@ -58,7 +65,7 @@ const Courses = () => {
                 <Card.Body>
                   <Card.Title>{course.title}</Card.Title>
                   <Card.Text>{course.description}</Card.Text>
-                  <Button variant="primary">Enroll Now</Button>
+                  <Button variant="primary" as={Link} to="/contact">Enroll Now</Button>
                 </Card.Body>
               </Card>
             </motion.div>

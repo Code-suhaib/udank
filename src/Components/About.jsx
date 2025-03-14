@@ -9,7 +9,7 @@ const About = () => {
         {/* Left Side: Image */}
         <Col md={6} className="image-container">
           <Image 
-            src="/About.jpg" // Ensure the image is in the public folder
+            src="/Logo.png" // Ensure the image is in the public folder
             alt="About Us"
             fluid
             className="fade-in"
@@ -18,9 +18,9 @@ const About = () => {
 
         {/* Right Side: Text */}
         <Col md={6} className="text-container fade-in">
-          <h2 className="about-title">About UdanK Coaching</h2>
+          <h2 className="about-title">About UdanAte Coaching</h2>
           <p className="about-text">
-            Welcome to <strong>UdanK Coaching Classes</strong>, a leading institute dedicated to shaping the careers of **NEET & JEE** aspirants. Our institute is built on the foundation of **quality education, expert mentorship, and a well-structured study plan**.
+            Welcome to <strong>UdanAte Coaching Classes</strong>, a leading institute dedicated to shaping the careers of **NEET & JEE** aspirants. Our institute is built on the foundation of **quality education, expert mentorship, and a well-structured study plan**.
           </p>
           <p className="about-text">
             With a **team of IITians, doctors, and experienced faculty**, we ensure that every student gets personalized attention, detailed subject explanations, and a **result-driven preparation strategy**.
@@ -31,7 +31,7 @@ const About = () => {
       {/* Why Choose Us Section */}
       <Row className="why-choose-us fade-in">
         <Col md={12}>
-          <h3 className="section-title">Why Choose UdanK Coaching?</h3>
+          <h3 className="section-title">Why Choose UdanAte Coaching?</h3>
         </Col>
         
         <Col md={4} className="feature-box">
@@ -68,7 +68,7 @@ const About = () => {
       {/* Call to Action Section */}
       <Row className="call-to-action text-center fade-in">
         <Col md={12}>
-          <h3 className="cta-title">Join UdanK Coaching Today!</h3>
+          <h3 className="cta-title">Join UdanAte Coaching Today!</h3>
           <p className="cta-text">
             Get the best guidance for **NEET & JEE** from India's top educators. Start your journey towards success now!
           </p>

@@ -9,7 +9,7 @@ const Footer = () => {
         <Row className="text-center text-md-start">
           {/* Left: About Us */}
           <Col md={4} className="footer-about">
-            <h5>About UdanK</h5>
+            <h5>About UdanAte</h5>
             <p>
               UdanK Coaching provides expert guidance for NEET & JEE aspirants, helping students achieve their dreams with structured learning and mentorship.
             </p>
@@ -39,10 +39,10 @@ const Footer = () => {
         <Row className="text-center mt-3">
           <Col>
             <p className="footer-bottom">
-              &copy; {new Date().getFullYear()} UdanK Coaching. All Rights Reserved.
+              &copy; {new Date().getFullYear()} UdanAte Coaching. All Rights Reserved.
             </p>
             <p className="developer-credit">
-              Designed & Developed by <strong>Suhaib Jahagirdar</strong> ❤️
+              Designed & Developed by   <strong> Suhaib Jahagirdar</strong> ❤️
             </p>
           </Col>
         </Row>

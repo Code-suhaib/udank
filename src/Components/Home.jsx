@@ -16,7 +16,7 @@ function Home() {
             transition={{ duration: 1.5 }}
             className="fade-in"
           >
-            Welcome to UdanK Coaching Classes
+            Welcome to UdanAte Coaching Classes
           </motion.h1>
 
           <motion.p 
