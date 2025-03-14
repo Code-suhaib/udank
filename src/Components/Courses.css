@@ -1,0 +1,27 @@
+.courses {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .courses .card {
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .courses .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .courses .card img {
+    border-radius: 10px;
+  }
+  
+  .courses .card-title {
+    font-weight: bold;
+  }
+  
+  .courses .btn {
+    margin-top: 10px;
+  }
+  
